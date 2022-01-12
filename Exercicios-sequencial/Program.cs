@@ -10,7 +10,7 @@ namespace Exercicios_sequencial
             Console.WriteLine("digite o valor do salario: ");
             double salario = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Vale transporte? (S = Sim / N + Não)");
+            Console.WriteLine("Deseja Receber vale transporte? (S = Sim / N + Não)");
             char vale = char.Parse(Console.ReadLine());
 
             if (vale == 'S' || vale == 's')
